@@ -1,0 +1,7 @@
+package pe.com.test.domain
+
+import pe.com.test.domain.entities.Movie
+
+interface GetUpcomingMoviesUseCase {
+    suspend fun get(): List<Movie>
+}
